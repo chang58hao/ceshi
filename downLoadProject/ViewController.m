@@ -48,6 +48,10 @@
     NSLog(@"这是合伙人的测试");
 }
 
+-(void)hahah{
+    NSLog(@"这是主干的更新");
+}
+
 -(void)downloadRate:(float)rate withDownloadUrl:(NSString *)downloadUrl{
     _downLoadProgress = rate;
     _progressLabel.text = [NSString stringWithFormat:@"%.1f%%",rate];
